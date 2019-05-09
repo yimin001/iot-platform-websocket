@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: iot-platform-websocket
+  cloud:
+    config:
+      profile: dev
+      label: master
+      uri: http://localhost:8868/
+      name: iot-platform-websocket-application,common
